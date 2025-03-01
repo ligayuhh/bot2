@@ -3,7 +3,7 @@ import requests
 import random
 import string
 import datetime
-from datetime import datetime
+from datetime import datetime, timedelta
 import shlex
 
 BOT_TOKEN = "7880737293:AAEPjlTvMw5ug7lMI5V8Q-mSm3zOWezkxWU"
