@@ -139,7 +139,8 @@ def generate_custom_email(custom_prefix, user_id):
     domains = get_domains()
     if not domains:
         return None
-    random_domain = random.choice(domains)
+    # random_domain = random.choice(domains)
+    random_domain = "alexraemail.com"
     email = f"{custom_prefix}_{user_id}@{random_domain}"
     try:
         requests.get(f"{BASE_URL}/email/{email}/{API_KEY}")
