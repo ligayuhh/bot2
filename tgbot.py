@@ -5,7 +5,7 @@ import string
 import datetime
 import shlex
 
-BOT_TOKEN = "8054788056:AAFnxZrzc-DqkpxV5DwAUrI1CjXQgJyOqP0"
+BOT_TOKEN = "7880737293:AAEPjlTvMw5ug7lMI5V8Q-mSm3zOWezkxWU"
 API_KEY = "F2Lu08WAYp4rO9XZlzcy"
 BASE_URL = "https://alexraefra.com/api"
 
